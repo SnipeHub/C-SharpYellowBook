@@ -8,7 +8,7 @@ namespace PlaceholdersInStrings
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int i = 150;
             double f = 1234.56789;
@@ -26,6 +26,15 @@ namespace PlaceholdersInStrings
             // This also works with strings, so if you want to print columns of words you can use this technique to do it
 
 
+        }
+    }
+
+    class Program2
+    {
+        public static void Secondary()
+        {
+            int p = 67384;
+            Console.WriteLine("The value of P: " + p);
         }
     }
 }
