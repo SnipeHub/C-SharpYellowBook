@@ -18,7 +18,7 @@ namespace MethodReturnValues
         static void Main(string[] args)
         {
             int res;
-            res = sillyReturnPlus(5);
+            res = sillyReturnPlus(5); // Our method used again here, still taking on the properties of our 'int sillyReturnPlus()' method, in this case it carries across the integer.
             Console.WriteLine("res is: " + res);
         }
     }
