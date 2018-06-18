@@ -34,6 +34,8 @@ namespace UsefulMethod
             Console.WriteLine("Width: " + windowWidth);
 
             double age = readValue("Enter your age: ", 0, 70); // similar to above, we set a min and max age number, lowest is 0 and highest is 70
+            // Also be mindful to keep the order the same as the method above, prompt, low, high. Otherwise you need to specify the order
+            // example: double age = readValue("low:0, high:70, prompt:"Enter your age");
             Console.WriteLine("Age: " + age); // now print the age that was typed.
 
             // As you can see, we have created one method and allows us to use it multiple times to save us typing more code.
